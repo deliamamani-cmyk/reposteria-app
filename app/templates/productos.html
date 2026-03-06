@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reposteria DAlas</title>
+</head>
+<body>
+    {% for p in producto %}
+        <div>
+            <h3>{{ p.nombre  }}</h3>
+            <p>{{ p.descripcion  }}</p>
+            <strong>{{ p.precio  }}</strong>
+            <i>{{ p.stock  }}</i>
+        </div>
+    
+    
+    {% endfor %}
+</body>
+</html>
